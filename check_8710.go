@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	g "github.com/soniah/gosnmp"
+	g "github.com/gosnmp/gosnmp"
 )
 
 var host = flag.String("H", "", "Printer to query")
